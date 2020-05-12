@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Fée Couture</title>
+    <meta name="description" content="La Fée Couture est un blog de créations.">
+    <link rel="shortcut icon" href="/images/sewing-machine (1).png" type="image/x-icon">
+    <meta name="robots" content="index">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -15,7 +18,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -29,7 +32,7 @@
                         alt="logo"></a>
                 <ul class="nav navbar-nav">
                     <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#products">Portfolio</a></li>
                     <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -54,11 +57,10 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="image-1" src="/images/accueil.jpg" width="180" height="180" alt="accueil">
+                    <img class="image-1" src="/images/accueil.jpg" width="250" height="250" alt="accueil">
                 </div>
                 <div class="col-md-6 text-center">
-                    <h1><img class="image-2" src="/images/section.png" width="30" height="30" alt="">Qui sommes-nous ?
-                    </h1>
+                    <h1>Qui sommes-nous ?</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quibusdam quos culpa,
                         voluptates veniam numquam repellendus magnam, omnis asperiores provident eveniet sit, totam aut.
                         Neque vel, cupiditate enim optio perspiciatis sint porro inventore hic sit! Saepe reiciendis
@@ -72,62 +74,66 @@
     <!-- SERVICES -->
 
     <section class="services text-center mt-5 p-5">
-        <h1 class="titre-1"><img src="/images/section.png" width="30" height="30" alt=""> Nos services</h1>
+        <h1 class="titre-1"><img src="/images/icons8-services.svg" width="60" height="60" alt=""> Nos services</h1>
         <div class="container">
             <div class="row mb-4">
                 <div class="col-md-3">
-                    <div class="text-black text-center">
+                    <div class="services-card">
                         <div class="card-body">
-                            <img src="/images/serv-1.svg" width="80" height="80" alt="mercerie">
+                            <img src="/images/serv1.png" width="80" height="80" alt="mercerie">
                             <h3>Mercerie</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!</p>
+                           
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-black text-center">
+                    <div class="services-card">
                         <div class="card-body">
                             <img src="/images/serv-2.svg" width="80" height="80" alt="mercerie">
                             <h3>Retouches</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio! 
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-black text-center">
+                    <div class="services-card">
                         <div class="card-body">
-                            <img src="/images/serv-3.svg" width="80" height="80" alt="mercerie">
+                            <img src="/images/serv3.png" width="80" height="80" alt="mercerie">
                             <h3>Créations</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="text-black text-center">
+                    <div class="services-card">
                         <div class="card-body">
-                            <img src="/images/serv-4.svg" width="80" height="80" alt="mercerie">
+                            <img src="/images/serv4.png" width="80" height="80" alt="mercerie">
                             <h3>Repassage</h3>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, distinctio!
+                            </p>
                         </div>
                     </div>
                 </div>
     </section>
 
-    <!-- PORTFOLIO -->
-    <section id="portfolio">
+    <!-- PRODUITS -->
+    <section id="products">
         <div class="container">
             <div class="heading text-center">
-                <h1> <img src="/images/section.png" width="30" height="30" alt=""> Portfolio</h1>
+                <h1> <img src="/images/shopping-bag.png" width="40" height="40" alt="">Nos produits</h1>
+            </div>
+            <div class="heading text-center">
+                <h2>Les fils</h2>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <a class="thumbnail" href="#"><img class="img-size" src="/images/portfolio-1.jpg" alt=""></a>
-                </div>
-                <div class="col-sm-4">
-                    <a class="thumbnail" href="#"><img class="img-size" src="/images/portfolio-2.png" alt=""></a>
-                </div>
-                <div class="col-sm-4">
-                    <a class="thumbnail" href="#"><img class="img-size" src="/images/portfolio-3.jpg" alt=""></a>
+                <div class="col-md-4">
+                    
                 </div>
             </div>
         </div>
@@ -137,7 +143,7 @@
                     <p class="texte-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                         Inventore quis aliquid cupiditate eveniet suscipit optio.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 text-center">
                     <button class="button-1">Voir la Galerie</button>
                 </div>
             </div>
