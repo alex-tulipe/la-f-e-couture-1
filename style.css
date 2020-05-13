@@ -1,5 +1,7 @@
 /* MENU */
-
+:root{
+  --border-primary: #fff
+}
 .navbar{
     background: #f2c9fd;
     font-size: 15px;
@@ -90,6 +92,13 @@ h1,h2,h3,p,li,a{
     margin-bottom: 10px;
   }
 
+  #products .card{
+    border: rgb(98, 209, 194) solid 1px;
+    border-radius: 3px;
+  }
+  #products .card-body{
+    border: none;
+  }
   .card-body h3{
     font-size: 25px;
     margin-top: 30px;
