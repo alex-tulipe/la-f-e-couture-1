@@ -91,7 +91,9 @@ h1,h2,h3,p,li,a{
     border-radius: 8px;
     margin-bottom: 10px;
   }
-
+  #products .images img{
+    max-width: 400px;
+  }
   #products .card{
     border: rgb(197, 197, 197) solid 1px;
     border-radius: 3px;
