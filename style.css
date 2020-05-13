@@ -93,7 +93,7 @@ h1,h2,h3,p,li,a{
   }
 
   #products .card{
-    border: rgb(98, 209, 194) solid 1px;
+    border: rgb(197, 197, 197) solid 1px;
     border-radius: 3px;
   }
   #products .card-body{
