@@ -180,7 +180,23 @@ h1,h2,h3,p,li,a{
   #blog .card-body{
     border: none;
   }
-
+#blog a{
+  border: #f2c9fd;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#blog a:hover{
+  background: white;
+  color: rgb(220, 60, 235);
+  text-decoration: none;
+  transition: all 0.3s ease-in 0s;
+}
   #contact{
     background: #f2c9fd;
   }
