@@ -63,14 +63,9 @@ h1,h2,h3,p,li,a{
     margin: 30px 0 0 0;
   }
   .accueil .image-1{
-    margin-top: -70px;
+    margin-top: -10px;
     border-radius: 8px;
   }
-  .accueil .image-2{
-    margin-right: 10px;
-    margin-bottom: 3px;
-  }
- 
   .accueil p{
     margin-bottom: 40px;
     line-height: 1.5em;
@@ -114,6 +109,7 @@ h1,h2,h3,p,li,a{
   #products .card{
     border: rgb(197, 197, 197) solid 1px;
     border-radius: 3px;
+    margin-bottom: 60px;
   }
   #products .card-body{
     border: none;
