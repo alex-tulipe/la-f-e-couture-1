@@ -213,24 +213,26 @@ h1,h2,h3,p,li,a{
   }
   #contact input{
     height: 35px;
-    width: 250px;
+    width: 200px;
 }
   .envoyer{
-    background-color: rgb(197, 194, 194);
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    border: #707070;
+    color: rgb(82, 82, 82);
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  
   }
   .envoyer:hover{
     background: white;
-    color: rgb(220, 60, 235);
+    color: rgb(160, 98, 160);
     text-decoration: none;
     transition: all 0.3s ease-in 0s;
+    
   }
   #main-footer{
     background: #484848;
