@@ -131,16 +131,17 @@ h1,h2,h3,p,li,a{
     margin-right: 8px;
     margin-top: -15px;
   }
+  /* PSEUDO ELEMENT */
   #products .heading h2:after{
     content: '';
-    height: 3px;
-    width: 400px;
-    background: white;
     display: block;
-    margin-left: 32%;
+    height: 2px;
+    background-color: white;
+    width: 200px;
+    margin: 0 auto;
     margin-top: 10px;
-
   }
+
   .button-1{
     font-weight: bold;
     font-size: 20px;
@@ -208,33 +209,47 @@ h1,h2,h3,p,li,a{
     margin-top: 30px;
     margin-bottom: 20px;
   }
+  #contact .heading h1{
+    font-size: 40px;
+  }
+  #contact .heading h3{
+    font-size: 25px;
+  }
   #contact .heading img{
     margin-right: 5px;
   }
   #contact input{
-    height: 35px;
-    width: 200px;
+    height: 40px;
+    width: 300px;
+    font-size: 15px;
 }
-  .envoyer{
+#contact textarea{
+  height: 100px;
+  width: 300px;
+  font-size: 15px;
+}
+.envoyer{
     border: #707070;
     color: rgb(82, 82, 82);
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 10px;
   
   }
-  .envoyer:hover{
+.envoyer:hover{
     background: white;
     color: rgb(160, 98, 160);
     text-decoration: none;
     transition: all 0.3s ease-in 0s;
-    
   }
-  #main-footer{
+#contact img{
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+#main-footer{
     background: #484848;
     color: white;
   }
