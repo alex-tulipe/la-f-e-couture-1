@@ -211,6 +211,10 @@ h1,h2,h3,p,li,a{
   #contact .heading img{
     margin-right: 5px;
   }
+  #contact input{
+    height: 35px;
+    width: 250px;
+}
   .envoyer{
     background-color: rgb(197, 194, 194);
     border: none;
@@ -220,6 +224,13 @@ h1,h2,h3,p,li,a{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
+  }
+  .envoyer:hover{
+    background: white;
+    color: rgb(220, 60, 235);
+    text-decoration: none;
+    transition: all 0.3s ease-in 0s;
   }
   #main-footer{
     background: #484848;
