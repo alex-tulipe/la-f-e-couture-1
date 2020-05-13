@@ -165,13 +165,11 @@ h1,h2,h3,p,li,a{
   }
   
   .texte-4{
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
   }
-  .image-4{
-    max-width: 360px;
-  }
+
   #blog .heading{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -179,7 +177,10 @@ h1,h2,h3,p,li,a{
   #blog .heading img{
     margin-right: 5px;
   }
-  
+  #blog .card-body{
+    border: none;
+  }
+
   #contact{
     background: #f2c9fd;
   }
